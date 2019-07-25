@@ -1,0 +1,41 @@
+{
+  "name": "storybook",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "storybook": "start-storybook -p 7007"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@emotion/core": "^10.0.14",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-backgrounds": "^5.1.9",
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addon-notes": "^5.1.9",
+    "@storybook/addon-ondevice-actions": "^5.1.9",
+    "@storybook/addon-ondevice-backgrounds": "^5.1.9",
+    "@storybook/addon-ondevice-knobs": "^5.1.9",
+    "@storybook/addon-ondevice-notes": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react-native": "^5.1.9",
+    "@storybook/react-native-server": "^5.1.9",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "emotion-theming": "^10.0.14",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-dom": "16.8.3",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
